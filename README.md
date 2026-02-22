@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Orbit 🛰️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📄 **Overview**
 
-## Available Scripts
+This project management platform streamlines the process of organizing tasks and managing team workspaces. The application features a modern Glassmorphism UI with interactive particle animations, ensuring a seamless workflow from user registration to real-time task tracking and collaboration.
 
-In the project directory, you can run:
+📸 **Screenshots**
 
-### `npm start`
+*(Add screenshots of your project here by replacing these placeholders once uploaded to the repo)*
+* `![Loading Screen](./assets/loading.png)`
+* `![Login/Register](./assets/auth.png)`
+* `![Dashboard](./assets/dashboard.png)`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✨ **Key Features**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Workspace Portal**
+* **Workspace Access** - Easy-to-use interface for creating, browsing, and managing multiple project workspaces
+* **Task Management** - Real-time tracking of tasks across 'To Do', 'In Progress', and 'Done' statuses
+* **Email Notifications** - Automated custom HTML email updates for account verification and registration confirmations
+* **Progress Tracking** - Convenient access to dynamic progress bars calculating task completion rates
 
-### `npm test`
+**Admin & Collaboration**
+* **Member Management** - Centralized dashboard for assigning roles and managing team members
+* **User Authentication** - Oversee secure access levels and manage role-based permissions (Admin vs Member)
+* **System Monitoring** - Track available workspaces and manage project deletion rights exclusively for admins
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🛠️ **Tech Stack**
 
-### `npm run build`
+* **Backend:** Node.js, Express.js
+* **Frontend:** React.js, HTML, CSS (Glassmorphism), JavaScript, React-TSParticles
+* **Database:** MongoDB (NoSQL)
+* **Authentication:** JSON Web Tokens (JWT) & Bcrypt
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🔒 **Security Features**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Enhanced database schema with secure user credential storage (Password Hashing via Bcrypt)
+* Protected user authentication and authorization via JWT verification
+* Secure email verification workflow to prevent unauthorized account creation
+* Data validation and route protection for admin-only functionalities
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🗄️ **Database Architecture**
 
-### `npm run eject`
+The application utilizes a well-structured MongoDB schema featuring:
+* User management collections with encrypted credentials and role-based access
+* Workspace and task tracking collections with embedded references
+* Verification token management for secure email confirmations
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🚀 **Workflow**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **User Registration/Login** - Secure account creation and authentication via email verification
+2. **Dashboard Access** - Users access the main portal to view and manage their workspaces
+3. **Workspace Creation** - Users create new projects and automatically receive Admin privileges
+4. **Task Assignment** - Direct access to add new tasks, set priorities, and update statuses
+5. **Progress Monitoring** - Users check real-time progress bars for project completion
+6. **Team Collaboration** - Administrators invite new members directly to the shared workspace
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+⚙️ **Local Setup & Installation**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/madhusanka77/Orbit-Project-Management-System.git](https://github.com/madhusanka77/Orbit-Project-Management-System.git)
 
-## Learn More
+   ## 💡 Future Enhancements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* 💬 **Real-time Chat:** Chat support between workspace members for better collaboration.
+* 📎 **File Management:** File upload functionality for users to attach documents to tasks.
+* 📅 **Smart Reminders:** Deadline reminders and calendar integrations for coursework/projects.
+* 📱 **Mobile App:** Mobile application development for Android/iOS.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 👨‍💻 Author & Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Developed with ❤️ by **Pathum Madhusanka**.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📫 For queries or support regarding this project, please reach out through **GitHub Issues** or contact the developer directly.
