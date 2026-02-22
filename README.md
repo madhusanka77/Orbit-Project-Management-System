@@ -1,15 +1,15 @@
-# Orbit 🛰️
+<img width="1892" height="872" alt="Screenshot 2026-02-22 232828" src="https://github.com/user-attachments/assets/88686967-c660-4ae5-bedd-559bf4c5f2f3" /># Orbit 🛰️
 
 📄 **Overview**
 
 This project management platform streamlines the process of organizing tasks and managing team workspaces. The application features a modern Glassmorphism UI with interactive particle animations, ensuring a seamless workflow from user registration to real-time task tracking and collaboration.
 
 📸 **Screenshots**
-
-*(Add screenshots of your project here by replacing these placeholders once uploaded to the repo)*
-* `![Loading Screen](./assets/loading.png)`
-* `![Login/Register](./assets/auth.png)`
-* `![Dashboard](./assets/dashboard.png)`
+<img width="1918" height="867" alt="Screenshot 2026-02-22 232734" src="https://github.com/user-attachments/assets/546406a2-bab4-4d71-9040-896f64d50548" />
+<img width="1892" height="872" alt="Screenshot 2026-02-22 232828" src="https://github.com/user-attachments/assets/540a4c5b-8aa1-46f4-90f0-5eb9405c17d8" />
+<img width="1920" height="867" alt="Screenshot 2026-02-22 232924" src="https://github.com/user-attachments/assets/7ce20e0c-1b36-42b6-9eb1-b21670f62a93" />
+<img width="1920" height="851" alt="Screenshot 2026-02-22 233000" src="https://github.com/user-attachments/assets/78127af7-7d5c-4162-932b-5a0a0d7d87ce" />
+<img width="1895" height="857" alt="Screenshot 2026-02-22 233123" src="https://github.com/user-attachments/assets/dceb159e-ee17-4c44-9b43-c06a34292733" />
 
 ✨ **Key Features**
 
