@@ -1,5 +1,3 @@
-<img width="1892" height="872" alt="Screenshot 2026-02-22 232828" src="https://github.com/user-attachments/assets/88686967-c660-4ae5-bedd-559bf4c5f2f3" /># Orbit 🛰️
-
 📄 **Overview**
 
 This project management platform streamlines the process of organizing tasks and managing team workspaces. The application features a modern Glassmorphism UI with interactive particle animations, ensuring a seamless workflow from user registration to real-time task tracking and collaboration.
